@@ -1,32 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
+import ShortTextInput from './components/ShortTextInput/ShortTextInput';
+import TextInput from './components/TextInput/TextInput';
+import DropDownMultiSelect from './components/DropDownMultiSelect/DropDownMultiSelect';
+import DropDownSelect from './components/DropDownSelect/DropDownSelect';
+import BinarySelect from './components/BinarySelect/BinarySelect';
+import Button from './components/Button/Button';
+
 
 function App() {
   return (
     <form>
       <label>First name:</label>
-      <input/>
+      <ShortTextInput/>
       <label>Last name:</label>
-      <input/>
+      <ShortTextInput/>
       <label>Bibliography:</label>
-      <input/>
+      <TextInput/>
       <label>Email:</label>
-      <input/>
+      <ShortTextInput/>
       <label>Phone #:</label>
-      <input/>
+      <ShortTextInput/>
       <label>Dropdown Industry:</label>
-      <datalist>
-        <option/>
-      </datalist>
+      <DropDownSelect/>
       <label>Interests:</label>
-      <datalist>
-        <option/>
-      </datalist>
+      <DropDownMultiSelect/>
       <label>Profile Settings:</label>
-      <input/>
-
+      <BinarySelect/>
     
-      <input type="submit" value="Submit"></input>
+      <Button/>
     </form>
   );
 }
