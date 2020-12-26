@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import ShortTextInput from './components/ShortTextInput/ShortTextInput';
 import TextInput from './components/TextInput/TextInput';
+import TextArea from './components/TextArea/TextArea';
 import DropDownMultiSelect from './components/DropDownMultiSelect/DropDownMultiSelect';
 import DropDownSelect from './components/DropDownSelect/DropDownSelect';
 import BinarySelect from './components/BinarySelect/BinarySelect';
@@ -12,15 +12,15 @@ function App() {
   return (
     <form>
       <label>First name:</label>
-      <ShortTextInput/>
-      <label>Last name:</label>
-      <ShortTextInput/>
-      <label>Bibliography:</label>
       <TextInput/>
+      <label>Last name:</label>
+      <TextInput/>
+      <label>Bibliography:</label>
+      <TextArea/>
       <label>Email:</label>
-      <ShortTextInput/>
+      <TextInput/>
       <label>Phone #:</label>
-      <ShortTextInput/>
+      <TextInput/>
       <label>Dropdown Industry:</label>
       <DropDownSelect/>
       <label>Interests:</label>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class ShortTextInput extends Component {
+class TextArea extends Component {
 
   constructor(props){
     super(props)
@@ -11,11 +11,11 @@ class ShortTextInput extends Component {
   render(){
     return (
       <div>
-        <input/>
+        <textarea/>
       </div>
     );
   }
   
 }
 
-export default ShortTextInput;
+export default TextArea;
