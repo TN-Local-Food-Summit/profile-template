@@ -11,7 +11,7 @@ class Button extends Component {
   render(){
     return (
       <div>
-        <input/>
+        <button type="submit">Submit</button>
       </div>
     );
   }
