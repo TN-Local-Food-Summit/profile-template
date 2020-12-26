@@ -26,7 +26,8 @@ function App() {
       <label>Interests:</label>
       <DropDownMultiSelect/>
       <label>Profile Settings:</label>
-      <BinarySelect/>
+      <BinarySelect label='Share Information to Local Food Community' />
+      <BinarySelect label='Enable Push Notifications' />
     
       <Button/>
     </form>

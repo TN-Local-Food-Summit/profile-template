@@ -8,10 +8,11 @@ class BinarySelect extends Component {
   }
 
 
-  render(){
+  render() {
     return (
       <div>
-        <input/>
+        <label>{this.props.label}</label>
+        <input type='checkbox'/>
       </div>
     );
   }
