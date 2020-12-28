@@ -1,3 +1,4 @@
+import './TextInput.css';
 import React, { Component } from 'react';
 
 class TextInput extends Component {
@@ -11,7 +12,7 @@ class TextInput extends Component {
   render(){
     return (
       <div>
-        <input/>
+        <input className="textInput" placeholder={this.props.placeholder}/>
       </div>
     );
   }

@@ -4,7 +4,7 @@ class DropDownMultiSelect extends Component {
 
   constructor(props){
     super(props)
-
+    // https://github.com/harvesthq/chosen/releases
   }
 
 
