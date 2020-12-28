@@ -12,7 +12,8 @@ class TextInput extends Component {
   render(){
     return (
       <div>
-        <input className="textInput" placeholder={this.props.placeholder}/>
+        <p className="label">{this.props.label}</p>
+        <input className="textInput" placeholder={this.props.label}/>
       </div>
     );
   }

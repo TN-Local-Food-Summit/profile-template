@@ -1,3 +1,4 @@
+import './TextArea.css';
 import React, { Component } from 'react';
 
 class TextArea extends Component {
@@ -11,7 +12,7 @@ class TextArea extends Component {
   render(){
     return (
       <div>
-        <textarea/>
+        <textarea className="textArea" maxLength="500"/>
       </div>
     );
   }

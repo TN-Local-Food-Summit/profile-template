@@ -10,29 +10,29 @@ import Button from './components/Button/Button';
 
 function App() {
   return (
-    <form>
-      <div className="formContent">
-        <label>First name:</label>
-        <TextInput placeholder='First Name'/>
-        <label>Last name:</label>
-        <TextInput placeholder='Last Name'/>
-        <label>Bibliography:</label>
-        <TextArea/>
-        <label>Email:</label>
-        <TextInput placeholder='Email'/>
-        <label>Phone #:</label>
-        <TextInput placeholder='Phone Number'/>
-        <label>Dropdown Industry:</label>
-        <DropDownSelect/>
-        <label>Interests:</label>
-        <DropDownMultiSelect/>
-        <label>Profile Settings:</label>
-        <BinarySelect label='Share Information to Local Food Community' />
-        <BinarySelect label='Enable Push Notifications' />
-      
-        <Button/>
-      </div>
-    </form>
+    <div className="form">
+      <h1>Sign Up</h1>
+      <form>
+        <div className="formContent">
+          <TextInput label='First Name'/>
+          <TextInput label='Last Name'/>
+          <label>Bibliography:</label>
+          <TextArea/>
+          <TextInput label='Email'/>
+          <TextInput label='Phone Number'/>
+          <label>Dropdown Industry:</label>
+          <DropDownSelect/>
+          <label>Interests:</label>
+          <DropDownMultiSelect/>
+          <label>Profile Settings:</label>
+          <BinarySelect label='Share Information to Local Food Community' />
+          <BinarySelect label='Enable Push Notifications' />
+        
+          <Button/>
+        </div>
+      </form>
+    </div>
+    
   );
 }
 

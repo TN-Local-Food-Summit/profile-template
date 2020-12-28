@@ -1,4 +1,6 @@
-
+.label{
+  margin: 0;
+}
 
 .textInput{
   font-size: 20px;
