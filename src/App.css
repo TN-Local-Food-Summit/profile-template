@@ -14,7 +14,7 @@ body {
   border-radius: 10px;
 }
 
-.formContent{
+.formContent, .header {
   padding: 0px 20px
 }
 

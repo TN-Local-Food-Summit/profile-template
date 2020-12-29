@@ -11,7 +11,7 @@ import Button from './components/Button/Button';
 function App() {
   return (
     <div className="form">
-      <h1>Sign Up</h1>
+      <h1 className='header'>Sign Up</h1>
       <form>
         <div className="formContent">
           <div className="centerChildren">
