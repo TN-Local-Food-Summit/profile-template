@@ -12,8 +12,8 @@ class TextInput extends Component {
   render(){
     return (
       <div className="textInputDiv">
-        <p className="label">{this.props.label}</p>
-        <input className="textInput" placeholder={this.props.label}/>
+        <p className="label">{this.props.label + (this.props.required ? '*' : '')}</p>
+        <input className="textInput" placeholder={this.props.label} required={this.props.required}/>
       </div>
     );
   }

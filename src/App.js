@@ -15,8 +15,8 @@ function App() {
       <form>
         <div className="formContent">
           <div className="centerChildren">
-            <TextInput label='First Name'/>
-            <TextInput label='Last Name'/>
+            <TextInput label='First Name' required={true} />
+            <TextInput label='Last Name' required={true} />
           </div>
           <div className="centerChildren">
             <TextInput label='Email'/>
