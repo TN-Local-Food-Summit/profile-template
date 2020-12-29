@@ -14,14 +14,21 @@ function App() {
       <h1>Sign Up</h1>
       <form>
         <div className="formContent">
-          <TextInput label='First Name'/>
-          <TextInput label='Last Name'/>
+          <div className="centerChildren">
+            <TextInput label='First Name'/>
+            <TextInput label='Last Name'/>
+          </div>
+          <div className="centerChildren">
+            <TextInput label='Email'/>
+            <TextInput label='Phone Number'/>
+          </div>
           <label>Bibliography:</label>
           <TextArea/>
-          <TextInput label='Email'/>
-          <TextInput label='Phone Number'/>
+          
           <label>Dropdown Industry:</label>
-          <DropDownSelect/>
+          <DropDownSelect
+          options={[{name: 'Farming', id: 1},{name: 'Restaurant', id: 2},{name: 'Hospitality', id: 3}, {name: 'Education', id:4}, {name: 'Non-Profit Organization', id:5}]}
+          />
           <label>Interests:</label>
           <DropDownMultiSelect
           options={[{name: 'Healthy Living', id: 1},{name: 'Sustainability', id: 2},{name: 'Food Recipes', id: 3}, {name: 'Food Systems', id:4}]}
