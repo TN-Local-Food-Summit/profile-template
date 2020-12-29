@@ -33,6 +33,10 @@ body {
   width: 65%;
 }
 
+.textAreaCharsLeft {
+  margin: 0;
+}
+
 .centerSubmit {
   padding-top: 10px;
   padding-bottom: 20px;
