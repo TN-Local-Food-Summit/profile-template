@@ -35,11 +35,13 @@ function App() {
           <DropDownMultiSelect
           options={[{name: 'Healthy Living', id: 1},{name: 'Sustainability', id: 2},{name: 'Food Recipes', id: 3}, {name: 'Food Systems', id:4}]}
           />
-          <label>Profile Settings:</label>
           <BinarySelect label='Share Information to Local Food Community' />
           <BinarySelect label='Enable Push Notifications' />
         
-          <Button/>
+          <div className="centerSubmit">
+            <Button/>
+          </div>
+          
         </div>
       </form>
     </div>

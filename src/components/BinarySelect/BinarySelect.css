@@ -1,0 +1,8 @@
+.binarySelect {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.binarySelect > label {
+  margin-right: 10px;
+}

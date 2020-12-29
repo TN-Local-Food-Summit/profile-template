@@ -32,3 +32,10 @@ body {
   margin: auto;
   width: 65%;
 }
+
+.centerSubmit {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin: auto;
+  width: 150px;
+}
