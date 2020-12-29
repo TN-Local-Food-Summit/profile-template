@@ -11,7 +11,16 @@ import Button from './components/Button/Button';
 class CreateAccount extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      emailRequired: true,
+      phoneRequired: true,
+    };
+    this.onEmailChange = this.onEmailChange.bind(this);
+    this.onPhoneChange = this.onPhoneChange.bind(this);
   }
+
+  onEmailChange = (e) => this.setState({ phoneRequired: !e.target.value });
+  onPhoneChange = (e) => this.setState({ emailRequired: !e.target.value });
 
   render() {
     return (
@@ -24,8 +33,8 @@ class CreateAccount extends Component {
               <TextInput label='Last Name' required={true} />
             </div>
             <div className="centerChildren">
-              <TextInput label='Email'/>
-              <TextInput label='Phone Number'/>
+              <TextInput onChange={this.onEmailChange} label='Email' required={this.state.emailRequired} />
+              <TextInput onChange={this.onPhoneChange} label='Phone Number' required={this.state.phoneRequired} />
             </div>
             <div className="centerBibliography">
               <TextArea label='Bibliography' />
