@@ -1,3 +1,4 @@
+import './Button.css';
 import React, { Component } from 'react';
 
 class Button extends Component {
@@ -11,7 +12,7 @@ class Button extends Component {
   render(){
     return (
       <div>
-        <button type="submit">Submit</button>
+        <button type="submit" className="button">Submit</button>
       </div>
     );
   }
