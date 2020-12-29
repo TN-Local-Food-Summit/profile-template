@@ -27,3 +27,8 @@ body {
   display: inline;
   width: 50%;
 }
+
+.centerBibliography {
+  margin: auto;
+  width: 65%;
+}

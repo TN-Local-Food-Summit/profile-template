@@ -12,6 +12,7 @@ class TextArea extends Component {
   render(){
     return (
       <div>
+        <div>{this.props.label}:</div>
         <textarea className="textArea" maxLength="500"/>
       </div>
     );

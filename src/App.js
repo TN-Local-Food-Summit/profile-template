@@ -22,8 +22,10 @@ function App() {
             <TextInput label='Email'/>
             <TextInput label='Phone Number'/>
           </div>
-          <label>Bibliography:</label>
-          <TextArea/>
+          <div className="centerBibliography">
+            <TextArea label='Bibliography' />
+          </div>
+          
           
           <label>Dropdown Industry:</label>
           <DropDownSelect
