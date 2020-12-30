@@ -6,35 +6,9 @@ body {
   background-color: #1f2117;
 }
 
-
 .form {
   background-color: #ddd;
-  width: 70%;
-  margin: 50px 15%;
   border-radius: 10px;
-}
-
-.formContent, .header {
-  padding: 0px 20px
-}
-
-.centerChildren {
-  width: 100%;
-  padding: 20px;
-}
-
-.centerChildren > div {
-  display: inline;
-  width: 50%;
-}
-
-.centerBibliography {
-  margin: auto;
-  width: 65%;
-}
-
-.textAreaCharsLeft {
-  margin: 0;
 }
 
 .centerSubmit {
@@ -43,3 +17,49 @@ body {
   margin: auto;
   width: 150px;
 }
+
+.textAreaCharsLeft {
+  margin: 0;
+}
+
+.formContent, .header {
+  padding: 0px 20px
+}
+
+@media only screen and (min-width: 768px) {
+  .form {
+    width: 70%;
+    margin: 50px 15%;
+  }
+
+  
+
+  .centerChildren {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .centerChildren > div {
+    display: inline;
+    width: 50%;
+  }
+
+  .centerBibliography {
+    margin: auto;
+    width: 65%;
+  }
+} 
+
+@media only screen and (max-width: 767px) {
+
+  .centerChildren > div {
+    display: inline;
+    width: 100%;
+  }
+
+  .centerBibliography {
+    margin: auto;
+    width: 90%;
+  }
+
+} 
